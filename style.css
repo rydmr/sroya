@@ -1,0 +1,56 @@
+body
+{
+    background-color:aquamarine;
+}
+form{
+    position: relative;
+    left: 20%;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: burlywood;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 20px beige;
+}
+
+input,
+textarea
+{
+    font-size: 22px;
+    width: 70%;
+    margin: 0.4rem;
+    height: 20%;
+
+}
+#sendBtn
+{
+    border-radius: 0.2rem ;
+    border: bisque;
+}
+
+#sendBtn:hover
+{
+    background: azure;
+    box-shadow: 1px 1px 10px bisque;
+}
+ul{
+    position: relative;
+    left: 20%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: burlywood;
+    width: 18rem;
+    color: white;
+    font-size: 25px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px beige;
+}
